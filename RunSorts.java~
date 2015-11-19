@@ -11,15 +11,11 @@ public class RunSorts {
 
     // Bubble Sort
     BubbleSort b = new BubbleSort();
-    System.out.println( "Unsorted: " + b );
+    System.out.println( b );
     b.sort();
-    System.out.println( "SORTED: " + b + "\n" );
+    System.out.println( b );
     
     // Selection Sort
-    SelectionsSort s = new SelectionsSort();
-    System.out.println( "Unsorted: " + s );
-    s.sort();
-    System.out.println( "SORTED: " + s + "\n" );
     
     // Insertion Sort
     
