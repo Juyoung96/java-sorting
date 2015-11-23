@@ -32,6 +32,10 @@ public class RunSorts {
     q.sort();
     System.out.println( "SORTED: " + q + "\n" );
      //Merge Sort
+    MergeSort m = new MergeSort();
+    System.out.println( "Unsorted: " + m );
+    m.sort();
+    System.out.println( "SORTED: " + m + "\n" );
     
     // Radix Sort 
     
