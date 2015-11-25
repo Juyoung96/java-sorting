@@ -35,9 +35,19 @@ public class RunSorts {
     MergeSort m = new MergeSort();
     System.out.println( "Unsorted: " + m );
     m.sort();
-    System.out.println( "SORTED: " + m + "\n" );
+    
+    // Searching methods
+    System.out.println( "\nDoing Linear Search: ");
+    System.out.println( "Index of 69 = " + m.linearSearch( 69 ) );
+    
+    System.out.println( "\nDoing Binaray Search: ");
+    System.out.println( "Index of 65 = " + m.binarySearch( 65 ) );
+    
+    //System.out.println( "SORTED: " + m + "\n" );
     
     // Radix Sort 
+    
+
     
   } // END main method
   
